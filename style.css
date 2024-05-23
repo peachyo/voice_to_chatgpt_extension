@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    min-width: 400px;
+    /* Ensure it is at least 400px wide */
+    min-height: 400px;
+    resize: both;
+    /* Make the window resizable */
+    overflow: auto;
+    /* Add scrollbar if content overflows */
+}
+
+#div_start {
+    float: right;
+}
+
+#response {
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+    min-height: 250px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#results {
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+    min-height: 150px;
+    width: 100%;
+}
+
+#start_button {
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+}
+
+.interim {
+    color: gray;
+}
+
+.final {
+    color: black;
+    padding-right: 3px;
+}
